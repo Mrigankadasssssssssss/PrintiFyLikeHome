@@ -35,7 +35,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5 }}
           >
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="flex-shrink-0 w-80 bg-gray-100 p-6 rounded-lg shadow-md">
+              <div key={index} className="flex-shrink-0 w-96 bg-gray-100 p-8 rounded-lg shadow-md">
                 <div className="text-center text-2xl leading-9 font-medium text-gray-900">
                   <p>&ldquo;{testimonial.content}&rdquo;</p>
                 </div>
@@ -43,11 +43,11 @@ export default function Testimonials() {
                   <div className="md:flex md:items-center md:justify-center">
                     <div className="md:flex-shrink-0">
                       <img
-                        className="mx-auto h-10 w-10 rounded-full"
-                        src="/placeholder.svg"
+                        className="mx-auto h-12 w-12 rounded-full"
+                        src={`https://i.pravatar.cc/150?img=${index + 1}`}
                         alt=""
-                        width={40}
-                        height={40}
+                        width={48}
+                        height={48}
                       />
                     </div>
                     <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
