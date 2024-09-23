@@ -39,19 +39,58 @@ export default function Header() {
               <Menu className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden md:flex space-x-10 mx-auto">
             <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Products
+              Catalog
             </a>
             <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Features
             </a>
+            <div className="relative group">
+              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900 flex items-center">
+                How It Works
+                <svg className="ml-1 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+              <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">How Logo works</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Logo on Demand</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">What to sell ?</a>
+              </div>
+            </div>
             <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a>
             <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Resources
+              Blog
             </a>
+            <div className="relative group">
+              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900 flex items-center">
+                Services
+                <svg className="ml-1 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+              <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Logo Studio</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Order In Bulk</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Expert Program</a>
+              </div>
+            </div>
+            <div className="relative group">
+              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900 flex items-center">
+                Need Help?
+                <svg className="ml-1 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+              <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Help Center</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contacts</a>
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">My Requests</a>
+              </div>
+            </div>
           </nav>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">

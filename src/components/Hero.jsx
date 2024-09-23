@@ -59,12 +59,15 @@ export default function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <img
+        <motion.img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/placeholder.svg"
-          alt="Hero image"
+          src="https://images.unsplash.com/photo-1593642634367-d91a135587b5"
+          alt="Professional logo design"
           width={1000}
           height={1000}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
         />
       </motion.div>
     </div>
